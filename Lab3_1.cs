@@ -7,7 +7,7 @@ namespace ConsoleApplication1
 	{
 		static void Main(string[] args)
 		{
-			Console.Write("Высота: ");
+			Console.Write("h: ");
 			int floar = int.Parse(ReadLine());
 			int space = floar;
 			for (int i = 0, z = 1; i < floar; i++, z+=2)
