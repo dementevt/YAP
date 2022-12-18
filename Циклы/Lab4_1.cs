@@ -22,6 +22,8 @@ namespace ConsoleApplication1
                     hour = 12 + j;
                     min = 5 + j * 5;
                 }
+                hour %=24;
+                min %=60;
                 Console.WriteLine($"{hour}:{min}");
             }
         }
