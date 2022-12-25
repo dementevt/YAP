@@ -28,7 +28,7 @@ namespace ConsoleApplication1
 		
 		public void Print()
 		{
-			Console.WriteLine($"{brand} {type} {num}");
+			Console.WriteLine($"{brand}, {type}, {num}");
 		}
 	}
 }
