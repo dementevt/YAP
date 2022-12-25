@@ -17,6 +17,7 @@ namespace ConsoleApplication1
 		{
 			int count = 0;
 			List <int> list = new List<int>();
+			list.Add(n);
 			while (n != 1)
 			{
 				if (n % 2 == 0)
